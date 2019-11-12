@@ -39,6 +39,7 @@ class MySqlManager extends ConnectionManager<MySqlConnection> {
     this.password,
     this.useSsl: false,
     this.timeoutInSeconds: 30,
+        this.timeZone: "UTC",
   });
 
   @override
